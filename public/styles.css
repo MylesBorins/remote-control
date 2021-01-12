@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, sans-serif;
+  display: grid;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+}
+
+.arrow {
+  font-size: 5em;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+#power-button {
+  padding: 5em;
+  margin-top: -20em;
+  margin-bottom: -20em;
+  transition: padding .2s ease-in-out;
+  border-radius: 10px;
+}
+
+#power-button:hover {
+  padding: 5.15em;
+  cursor: pointer;
+}
+
+#power-button:active {
+  padding: 5.3em;
+  border-radius: 12px;
+}
+
+.blue {
+  background-color: aliceblue;
+}
+
+.coral {
+  background-color: coral;
+}
+
+.red {
+  background-color: red;
+}

@@ -14,13 +14,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+function handleClick(message) {
+  socket.emit('message', message);
+}
+
 const socket = io();
+const powerButton = document.getElementById('power-button');
+const up = document.getElementById('up');
+const down = document.getElementById('down');
 
-const sliderOne = document.getElementById('slider-one');
-
-sliderOne.oninput = function() {
-  socket.emit('message', {
-    address: '/slider-one',
-    value: sliderOne.value
-  });
-};
+powerButton.onclick = handleClick.bind(this, 'KEY_POWER')
+up.onclick = handleClick.bind(this, 'KEY_VOLUP');
+down.onclick = handleClick.bind(this, 'KEY_VOLDOWN');
