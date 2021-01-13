@@ -17,7 +17,7 @@
     "pino": "^6.2.0",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0",
-    "samsungtv": "0.1.0"
+    "samsungtv": "https://github.com/MylesBorins/samsungtv"
   },
   "devDependencies": {
     "nodemon": "^2.0.3",
