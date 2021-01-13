@@ -1,6 +1,6 @@
-# oscilot
+# remote-control
 
-Proof of concent of html slider -> web socket -> osc
+I can't find the remote for the TV so this will have to do
 
 ## Get Started
 
