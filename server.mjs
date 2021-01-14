@@ -26,4 +26,4 @@ io.on('connection', (socket) => {
   });
 });
 
-app.listen(3000, (err) => console.error(err));
+app.listen(3000, '0.0.0.0', (err) => console.error(err));
